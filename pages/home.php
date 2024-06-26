@@ -17,15 +17,15 @@ foreach ($dadosApi as $jogo) {
     <div class="menu2">
         <ul>
             <li>
-                <a href="index.html" title="Home">Indicações</a>
+                <a href="index.html" title="Indicacao">Indicações</a>
             </li>
 
             <li>
-                <a href="game.html" title="Game">Ferramenta</a>
+                <a href="game.html" title="Ferramenta">Ferramenta</a>
             </li>
 
             <li>
-                <a href="sobre.html" title="Sobre">Desenvolvedores</a>
+                <a href="sobre.html" title="Desenvolvedor">Desenvolvedores</a>
             </li>
 
         </ul>
