@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header("Content-type: application/json; charset=utf-8");
 
 
-$path = "http://localhost/TechAcademy_2_ajuste/";
+$path = "http://localhost/Nave_Play/";
 
 $game[1] = array(
     "id" => 1,

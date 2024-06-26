@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compartible" content="IE=edge">
     <meta name="'viewport" content="width=device-width, initial-scale=1.0">
     <title>NavePlay</title>
-    <base href="http://localhost/TechAcademy_2_ajuste/">
+    <base href="http://localhost/Nave_Play/">
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -95,8 +95,8 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script scr="js/aos.js"></script>
-    <script scr="js/fslightbox.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/fslightbox.js"></script>
     <script src="menu.js"></script>
 </body>
 

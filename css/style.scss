@@ -25,13 +25,13 @@ body {
     background-size: 100% !important;
 }
 
-nav.menu-lateral {
+.menu-lateral {
     width: 80px;
     height: $perc;
     background-image: $secondary;
     padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 $hover1;
-
+    z-index: 999 !important;
     position: fixed;
     top: 0;
     left: 0;
@@ -184,6 +184,10 @@ ul {
 
 
 
+}
+
+.carousel {
+    z-index: 9;
 }
 
 .card {
