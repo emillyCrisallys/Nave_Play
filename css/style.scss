@@ -1,0 +1,257 @@
+@import url('htps://fonts.googleapis.com/css2?familly=Outfit:wght@300&display=swap');
+$primary: linear-gradient(rgb(9, 9, 9), #333261);
+$secondary: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(57, 89, 214));
+$clear: rgb(255, 255, 255);
+$hover: linear-gradient(to right, rgb(12, 15, 22), rgb(239, 8, 251) 100%);
+$hover1: rgb(239, 8, 251);
+
+$box-sizing: border-box;
+$font1: 'Outfit', sans-serif;
+$font2: Tahoma, Verdana;
+$width: 300px;
+$height: 100%;
+$perc: 100%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: $box-sizing;
+    font-family: $font1;
+
+}
+
+body {
+    background-image: $primary !important;
+    background-size: 100% !important;
+}
+
+nav.menu-lateral {
+    width: 80px;
+    height: $perc;
+    background-image: $secondary;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 $hover1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir {
+    /*faz expandir quando passa o mouse lista*/
+    width: $width ;
+}
+
+.btn-exandir {
+    width: $perc;
+    padding-left: 10px;
+}
+
+.btn-expandir {
+
+    /*icon lista*/
+    i {
+        color: $clear;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 20px 4%;
+        margin-left: 10px;
+    }
+}
+
+
+ul {
+    padding-left: 0;
+    height: $perc;
+    list-style-type: none;
+
+}
+
+ul {
+    li.item-menu {
+        transition: .2s;
+
+    }
+}
+
+ul {
+    li.item-menu:hover {
+        background-image: $hover ;
+
+    }
+
+}
+
+ul {
+    li.ativo {
+        background-image: $hover;
+
+    }
+
+}
+
+
+
+ul {
+    li.item-menu {
+
+        a {
+            color: $clear;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px 4%;
+            display: flex;
+            margin-bottom: 20px;
+            line-height: 40px;
+            margin-top: 40px;
+
+
+        }
+
+
+    }
+}
+
+
+
+
+ul {
+    li.item-menu {
+        a .txt-link {
+            margin-left: 70px;
+            transition: .5s;
+            opacity: 0;
+        }
+
+
+    }
+}
+
+
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul {
+    li.item-menu {
+        a .icon {
+            i {
+                font-size: 30px;
+                margin-left: 10px;
+            }
+
+        }
+
+
+    }
+}
+
+
+
+.slides_jogos {
+   
+    width: 100%;
+    margin: auto;
+    .carousel-inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        border-radius: 10px;
+    }
+}
+
+.carousel-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.centro {
+    margin-left: 50px;
+    width: 90%;
+    height: 100%;
+}
+
+.jogos {
+
+    margin-left: 110px;
+    width: 93%;
+    padding: 10px;
+
+
+
+}
+
+.card {
+    float: left;
+    margin-top: 40px;
+    margin-left: 95px;
+    box-shadow: 10px 20px rgb(166, 89, 230);
+
+
+
+}
+
+.card {
+    border: 3px solid rgb(17, 2, 29);
+    background-color: #210729;
+    transition: 1s; //determina o tempo de transição para volta do estado normal font-size: 40px;
+    cursor: pointer;
+    color: $clear;
+}
+
+.card:hover {
+    //estilos que são adicionados ao passar o cursor no elemento
+    border: 2px solid $hover1;
+    background-color: #181735;
+    transition: 1s; //determina o tempo de transição para aplicação dos estilos
+    color: $clear;
+}
+
+.inicio {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.inicio {
+    a {
+        img {
+            margin-left: 45%;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+    }
+}
+
+.inicio .menu2 {
+    display: block;
+    width: auto;
+    float: left;
+    margin-left: 35%;
+    font: 20px;
+
+    ul {
+        li {
+            padding: 10px;
+            display: inline;
+            /**lado a lado**/
+        }
+
+        a {
+            color: rgb(220, 202, 193);
+            text-decoration: none;
+            font-family: $font1;
+            list-style: none;
+        }
+    }
+}
+
+@media (min-width: 480px) {
+
+
+    
+}
