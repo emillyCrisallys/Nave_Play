@@ -216,8 +216,15 @@ hr {
   margin-left: 38px;
   font-family: "Outfit", sans-serif; }
 
-@media (min-width: 480px) {
-  body {
-    background-size: 100% auto; } }
+.tesxto {
+  width: 80%;
+  margin-left: 35px; }
+
+.historia {
+  color: white; }
+  .historia h3 {
+    margin-left: 10%; }
+  .historia p {
+    margin-left: 10%; }
 
 /*# sourceMappingURL=style.css.map */

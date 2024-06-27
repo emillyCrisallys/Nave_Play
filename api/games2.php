@@ -87,57 +87,58 @@ $game[5] = array(
 
 $game[6] = array(
     "id" => 6,
-    "title" => "Super Mario",
-    "description" => "Mario é retratado como um encanador italiano baixinho rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos planos de destruir e dominar o reino.",
+    "title" => "Horizon Forbidden West",
+    "description" => "A sequência do aclamado Horizon Zero Dawn não deixou a desejar. Nesse jogo de mundo aberto você pode explorar terras distantes, enfrentar máquinas grandes e imponentes e conhecer novas tribos do futuro distante e pós-apocalíptico de Horizon.",
 
-    "linkGame" => "https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/",
-    "screenShot01" => "{$path}img/logo_mario.jpg",
-    "banner" => "{$path}img/mario2.jpg",
-    "criador" => "Riot Games",
-    "linkSiteCriador" => "https://www.nintendo.com/",
-
+    "linkGame" => "https://store.epicgames.com/pt-BR/p/horizon-forbidden-west-complete-edition",
+    "screenShot01" => "{$path}img/horizon.jpg",
+    "banner" => "{$path}img/horixo_2.jpg",
+    "criador" => "Guerrilla Games",
+    "linkSiteCriador" => "https://store.steampowered.com/agecheck/app/2420110/"
 
 );
+
 
 $game[7] = array(
     "id" => 7,
-    "title" => "Super Mario",
-    "description" => "Mario é retratado como um encanador italiano baixinho rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos planos de destruir e dominar o reino.",
+    "title" => "Baldurs Gate 3",
+    "description" => "Esse RPG de mundo aberto ao estilo Dungeons & Dragons foi lançado em 2023 e já conquistou uma legião de fãs. Baldur's Gate 3 conta com combate por turnos e um modo multiplayer, limitado a quatro participantes.",
 
-    "linkGame" => "https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/",
-    "screenShot01" => "{$path}img/logo_mario.jpg",
-    "banner" => "{$path}img/mario2.jpg",
-    "criador" => "Riot Games",
-    "linkSiteCriador" => "https://www.nintendo.com/",
+    "linkGame" => "https://bloodinbaldursgate.larian.com/",
+    "screenShot01" => "{$path}img/baldur.jpg",
+    "banner" => "{$path}img/baldurs_2.jpg",
+    "criador" => "Larian Studios",
+    "linkSiteCriador" => "https://baldursgate3.game/"
 
 
 );
+
 
 
 $game[8] = array(
     "id" => 8,
-    "title" => "Super Mario",
-    "description" => "Mario é retratado como um encanador italiano baixinho rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos planos de destruir e dominar o reino.",
+    "title" => "Helldivers 2",
+    "description" => "Helldivers 2 é um jogo de tiro em terceira pessoa baseado em equipes, nele, as forças de elite Helldivers buscam a vitória num confronto intergaláctico contra a proliferação de ameaças alienígenas.",
 
-    "linkGame" => "https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/",
-    "screenShot01" => "{$path}img/logo_mario.jpg",
-    "banner" => "{$path}img/mario2.jpg",
-    "criador" => "Riot Games",
-    "linkSiteCriador" => "https://www.nintendo.com/",
+    "linkGame" => "https://store.steampowered.com/agecheck/app/553850/?l=brazilian",
+    "screenShot01" => "{$path}img/Helldivers.jpg",
+    "banner" => "{$path}img/Helldivers_2.jpg",
+    "criador" => "Arrowhead Game Studios",
+    "linkSiteCriador" => "https://www.nuuvem.com/br-pt/item/helldivers-2",
 
 
 );
 
 $game[9] = array(
     "id" => 9,
-    "title" => "Super Mario",
-    "description" => "Mario é retratado como um encanador italiano baixinho rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos planos de destruir e dominar o reino.",
+    "title" => "Fortnite",
+    "description" => "Fortnite é um dos jogos recomendados para PC e para consoles com maior popularidade. Ele foi responsável pela popularização do gênero nos últimos anos.",
 
-    "linkGame" => "https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/",
-    "screenShot01" => "{$path}img/logo_mario.jpg",
-    "banner" => "{$path}img/mario2.jpg",
-    "criador" => "Riot Games",
-    "linkSiteCriador" => "https://www.nintendo.com/",
+    "linkGame" => "https://www.fortnite.com/download",
+    "screenShot01" => "{$path}img/fortinite.jpg",
+    "banner" => "{$path}img/fortinite_2.jpg",
+    "criador" => " Epic Games",
+    "linkSiteCriador" => "https://www.fortnite.com/",
 
 
 );
