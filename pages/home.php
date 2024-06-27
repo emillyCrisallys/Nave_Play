@@ -11,21 +11,21 @@ foreach ($dadosApi as $jogo) {
 
 
 <div class="inicio">
-    <a href="index.html" title="logo_Nave_Play" class="logo">
+    <a href="home.php" title="logo_Nave_Play" class="logo">
         <img src="img/Nave/1.svg" alt="site-logo" style="width: 10%; height: 20%;">
     </a>
     <div class="menu2">
         <ul>
             <li>
-                <a href="index.html" title="Indicacao">Indicações</a>
+                <a href="pages/indicacoes.php" title="Indicacao">Indicações</a>
             </li>
 
             <li>
-                <a href="game.html" title="Ferramenta">Ferramenta</a>
+                <a href="pages/ferramenta.php" title="Ferramenta">Ferramenta</a>
             </li>
 
             <li>
-                <a href="sobre.html" title="Desenvolvedor">Desenvolvedores</a>
+                <a href="pages/desenvolvedores.php" title="Desenvolvedor">Desenvolvedores</a>
             </li>
 
         </ul>
@@ -33,7 +33,7 @@ foreach ($dadosApi as $jogo) {
 </div>
 
 
-<div id="carouselExample" class="carousel slide">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
   <?php
         $a = " active ";
@@ -49,24 +49,11 @@ foreach ($dadosApi as $jogo) {
         
         ?>
     
-
+  
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
 
-
-
-
-
-<!-- <div class="container-cards row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xxl-3 row-cols-fluid-3 g-4 x-4 mb-5"> -->
 <div class="container">
     <div class="row">
     <?php

@@ -1,17 +1,34 @@
 <?php
+$api = file_get_contents("http://localhost/Nave_Play/api/games.php");
+$dadosApi = json_decode($api);
 
-$id = $p[1] ?? NULL;
-
-$dadosApi = file_get_contents("http://localhost/VaporStore_web/api/games_originals.php/");
-
-$dadosApi = json_decode($dadosApi);
-
-$jogo = $dadosApi->$id;
-
+foreach ($dadosApi as $jogo) {
+}
 ?>
 
 
 
+<div class="container">
+    <div class="row">
+    <?php
+    foreach ($dadosApi as $jogo) {
+    ?>
+        <div class="col">
 
 
-<h1><?= $jogo->id ?></h1>
+            <div class="card" style="width: 18rem;">
+                <img src="<?= $jogo->screenShot01 ?>" class="card-img-top" alt="jogo">
+                <div class="card-body">
+                    <h5 class="card-title"><?= $jogo->title ?></h5>
+                    <a href="<?= $jogo->linkGame ?>" class="btn btn-primary">Jogar</a>
+                    <a href="<?= $jogo->linkSiteCriador ?>" class="btn btn-secondary">Site</a>
+                </div>
+            </div>
+        </div>
+
+    <?php
+    }
+    ?>
+    </div>
+
+</div>

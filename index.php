@@ -28,28 +28,28 @@
 
             <ul>
                 <li class="item-menu ativo">
-                    <a href="#">
+                    <a href="home">
                         <span class="icon"><i class="bi bi-house-door-fill"></i></span>
                         <span class="txt-link">Home</span>
                     </a>
                 </li>
 
                 <li class="item-menu">
-                    <a href="#">
+                    <a href="game">
                         <span class="icon"><i class="bi bi-joystick"></i></span>
                         <span class="txt-link">Games</span>
                     </a>
                 </li>
 
                 <li class="item-menu">
-                    <a href="#">
+                    <a href="contato">
                         <span class="icon"><i class="bi bi-envelope"></i></span>
                         <span class="txt-link">Contato</span>
                     </a>
                 </li>
 
                 <li class="item-menu">
-                    <a href="#">
+                    <a href="Login">
                         <span class="icon"><i class="bi bi-person-fill"></i></span>
                         <span class="txt-link">Login</span>
                     </a>
