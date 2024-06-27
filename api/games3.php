@@ -1,89 +1,146 @@
-<?php 
-    header("Access-Control-Allow-Origin: *");
-    header("Content-type: application/json; charset=utf-8");
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Content-type: application/json; charset=utf-8");
 
 
-    $path = "http://localhost/Nave_Play/";
-
-    $game[1] = array(
-        "id" => 1,
-        "title" => "Jogo API3",
-        "description" => "Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada pela crítica e o jogo mais bem...",
-        
-        "descriptionMid" => "Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada pela crítica e o jogo mais bem avaliado desta geração de consoles, agora chega aprimorado para PC com conteúdos inéditos no Modo História, melhorias visuais e muito mais.",
-        "descriptionFull" => "Estados Unidos, 1899.
-Arthur Morgan e a gangue Van der Linde são bandidos em fuga. Com agentes federais e os melhores caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões internas profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que o criou.
-Agora com conteúdo adicional no Modo História e um Modo Foto repleto de recursos, Red Dead Redemption 2 também inclui acesso gratuito ao mundo compartilhado de Red Dead Online. Nele, os jogadores assumem uma diversidade de ofícios para construir suas próprias trajetórias na fronteira, seja perseguindo criminosos procurados como Caçador de Recompensa, estabelecendo um negócio como Mercador, escavando tesouros exóticos como Colecionador ou operando uma destilaria subterrânea como Moonshiner, e muito mais.
-Com novas melhorias gráficas e técnicas que tornam o jogo mais imersivo, Red Dead Redemption 2 para PC aproveita ao máximo a potência do PC para dar vida a cada canto deste mundo gigantesco, rico e detalhado, incluindo maiores distâncias de renderização; iluminação global de maior qualidade e oclusão do ambiente para melhorar a iluminação do dia e da noite; melhorias nos reflexos e sombras mais fortes e de maior resolução a todas as distâncias; texturas de árvore tesseladas e melhorias nas texturas de grama e pelo, tornando todas as plantas e animais mais realistas.
-Red Dead Redemption 2 para PC também oferece suporte a HDR e a monitores de ponta com resolução 4K ou superior, configurações com vários monitores, widescreen, taxas de quadros mais rápidas, entre outras opções.",
-
-        "logoGame01" => "{$path}img/banners/rd2/logoGame01.jpg",
-        "banner01" => "{$path}img/banners/rd2/banner01.jpg",
-        "banner02" => "{$path}img/banners/rd2/banner02.jpg",
-        "screenShot01" => "{$path}img/iconsJogos/snake.jpg",
-        "screenShot02" => "{$path}img/banners/rd2/screenshot02.jpg",
-        "screenShot03" => "{$path}img/banners/rd2/screenshot03.jpg",
-        "screenShot04" => "{$path}img/banners/rd2/screenshot04.jpg",
-        "video01" => "",
-        "categoryLink" => "carrousel1",
-        "modoJogo" => "Um jogador",
-        "multiplayer" => "Cooperativo on-line",
-        "controls" => "Teclado, Controles",
-
-        );
-    $game[2] = array(
-        "id" => 2,
-        "title" => "Cyberpunk 2077",
-        "description" => "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa...",
-        
-        "descriptionMid" => "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa onde todos são obcecados por poder, glamour e alterações corporais.",
-        "descriptionFull" => "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City, onde você é um mercenário cyberpunk envolvido em uma intensa luta pela sobrevivência. Com diversas melhorias e conteúdo adicional gratuito, personalize o seu personagem e o seu estilo de jogo conforme aceita trabalhos, construa uma reputação e desbloqueie melhorias. Seus relacionamentos e suas escolhas moldarão a história e o mundo ao seu redor. Aqui nascem as lendas. Qual será a sua?",
-
-        "logoGame01" => "{$path}img/banners/cyberpunk/logoGame01.jpg",
-        "banner01" => "{$path}img/banners/cyberpunk/banner01.jpg",
-        "banner02" => "{$path}img/banners/cyberpunk/banner02.jpg",
-        "screenShot01" => "{$path}img/banners/cyberpunk/screenshot01.jpg",
-        "screenShot02" => "{$path}img/banners/cyberpunk/screenshot02.jpg",
-        "screenShot03" => "{$path}img/banners/cyberpunk/screenshot03.jpg",
-        "screenShot04" => "{$path}img/banners/cyberpunk/screenshot04.jpg",
-        "video01" => "",
-        "category" => "RPG",
-        "categoryLink" => "RPG",
-        "modoJogo" => "Um jogador",
-        "multiplayer" => "Sem Suporte a on-line",
-        "controls" => "Teclado, Controles",
-
-        );
-
-    
-    $game[3] = array(
-        "id" => 3,
-        "title" => "Cyberpunk 2077",
-        "description" => "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa...",
-        
-        "descriptionMid" => "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa onde todos são obcecados por poder, glamour e alterações corporais.",
-        "descriptionFull" => "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City, onde você é um mercenário cyberpunk envolvido em uma intensa luta pela sobrevivência. Com diversas melhorias e conteúdo adicional gratuito, personalize o seu personagem e o seu estilo de jogo conforme aceita trabalhos, construa uma reputação e desbloqueie melhorias. Seus relacionamentos e suas escolhas moldarão a história e o mundo ao seu redor. Aqui nascem as lendas. Qual será a sua?",
-
-        "logoGame01" => "{$path}img/banners/cyberpunk/logoGame01.jpg",
-        "banner01" => "{$path}img/banners/cyberpunk/banner01.jpg",
-        "banner02" => "{$path}img/banners/cyberpunk/banner02.jpg",
-        "screenShot01" => "{$path}img/banners/cyberpunk/screenshot01.jpg",
-        "screenShot02" => "{$path}img/banners/cyberpunk/screenshot02.jpg",
-        "screenShot03" => "{$path}img/banners/cyberpunk/screenshot03.jpg",
-        "screenShot04" => "{$path}img/banners/cyberpunk/screenshot04.jpg",
-        "video01" => "",
-        "category" => "RPG",
-        "categoryLink" => "RPG",
-        "modoJogo" => "Um jogador",
-        "multiplayer" => "Sem Suporte a on-line",
-        "controls" => "Teclado, Controles",
-
-        );
-
-
-    echo json_encode($game);
+$path = "http://localhost/Nave_Play/";
 
 
 
-?>
+$game[1] = array(
+    "id" => 1,
+    "title" => "Fortnite",
+    "description" => "Fortnite é um dos jogos recomendados para PC e para consoles com maior popularidade. Ele foi responsável pela popularização do gênero nos últimos anos.",
 
+    "linkGame" => "https://www.fortnite.com/download",
+    "screenShot01" => "{$path}img/fortinite.jpg",
+    "banner" => "{$path}img/fortinite_2.jpg",
+    "criador" => " Epic Games",
+    "linkSiteCriador" => "https://www.fortnite.com/",
+
+
+);
+
+
+$game[2] = array(
+    "id" => 2,
+    "title" => "Baldurs Gate 3",
+    "description" => "Esse RPG de mundo aberto ao estilo Dungeons & Dragons foi lançado em 2023 e já conquistou uma legião de fãs. Baldur's Gate 3 conta com combate por turnos e um modo multiplayer, limitado a quatro participantes.",
+
+    "linkGame" => "https://bloodinbaldursgate.larian.com/",
+    "screenShot01" => "{$path}img/baldur.jpg",
+    "banner" => "{$path}img/baldurs_2.jpg",
+    "criador" => "Larian Studios",
+    "linkSiteCriador" => "https://baldursgate3.game/"
+
+
+);
+
+
+
+$game[3] = array(
+    "id" => 3,
+    "title" => "Horizon Forbidden West",
+    "description" => "A sequência do aclamado Horizon Zero Dawn não deixou a desejar. Nesse jogo de mundo aberto você pode explorar terras distantes, enfrentar máquinas grandes e imponentes e conhecer novas tribos do futuro distante e pós-apocalíptico de Horizon.",
+
+    "linkGame" => "https://store.epicgames.com/pt-BR/p/horizon-forbidden-west-complete-edition",
+    "screenShot01" => "{$path}img/horizon.jpg",
+    "banner" => "{$path}img/horixo_2.jpg",
+    "criador" => "Guerrilla Games",
+    "linkSiteCriador" => "https://store.steampowered.com/agecheck/app/2420110/"
+
+);
+
+
+
+$game[4] = array(
+    "id" => 4,
+    "title" => "Super Mario",
+    "description" => "Mario é retratado como um encanador italiano baixinho rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos planos de destruir e dominar o reino.",
+
+    "linkGame" => "https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/",
+    "screenShot01" => "{$path}img/logo_mario.jpg",
+    "banner" => "{$path}img/mario2.jpg",
+    "criador" => "Riot Games",
+    "linkSiteCriador" => "https://www.nintendo.com/",
+
+
+);
+
+$game[5] = array(
+    "id" => 5,
+    "title" => "Valorant",
+    "description" => "Valorant ocorre em uma versão de uma Terra em um futuro próximo após um evento conhecido como Primeira luz. Este evento abrange todo o globo, levando a grandes transformações na vida, na tecnologia e na forma como os governos operam. No entanto, algumas pessoas em todo o mundo começam a ganhar habilidades decorrentes deste grande evento. Esses indivíduos talentosos são chamados Radiantes.
+                      Em resposta à Primeira Luz, uma organização das sombras funda o Protocolo Valorant, que une Agentes de todo o mundo. Esses Agentes consistem em Radiants e outros indivíduos equipados com a tecnologia Radiant. Devido às histórias de fundo desses personagens, a equipe Valorant apresenta uma dinâmica interessante, já que os indivíduos não só às vezes se conhecem, mas também vêm de um amplo espectro de origens que vão do crime ao militar.",
+
+    "linkGame" => "https://authenticate.riotgames.com/",
+    "screenShot01" => "{$path}img/logo_valorant.jpg",
+    "banner" => "{$path}img/valorant.jpg",
+    "criador" => "Riot Games",
+    "linkSiteCriador" => "https://playvalorant.com/pt-br/news/announcements/beginners-guide/",
+
+
+);
+
+
+
+
+$game[6] = array(
+    "id" => 6,
+    "title" => "Palworld",
+    "description" => "Palworld chegou a ser chamado de Pokémon com armas, sendo um sucesso de vendas, com 3 milhões de cópias comercializadas apenas alguns dias após seu lançamento.",
+
+    "linkGame" => "https://store.steampowered.com/app/1623730/Palworld/",
+    "screenShot01" => "{$path}img/palworld.jpg",
+    "banner" => "{$path}img/palworld_2.jpg",
+    "criador" => "Pocket Pair",
+    "linkSiteCriador" => "hhttps://www.pocketpair.jp/palworld",
+
+
+);
+
+$game[7] = array(
+    "id" => 7,
+    "title" => "Alan Wake 2",
+    "description" => "Continuação do sucesso Alan Wake, de 2010, trazendo de volta o protagonista Alan, além de novos personagens como os agentes do FBI Saga Anderson e Alex Casey.",
+
+    "linkGame" => "https://www.alanwake.com/pt/compre-ja-alan-wake-2/#/search&retail_type=digital",
+    "screenShot01" => "{$path}img/AlanII.jpg",
+    "banner" => "{$path}img/AlanII_2",
+    "criador" => "Remedy Entertainment",
+    "linkSiteCriador" => "https://www.alanwake.com/pt/",
+
+
+);
+
+
+$game[8] = array(
+    "id" => 8,
+    "title" => "Resident Evil 4",
+    "description" => "Resident Evil 4 é um remake do original de 2005. Ele busca preservar a essência do jogo original ao mesmo tempo em que traz uma jogabilidade modernizada, enredo reimaginado e gráficos mais detalhados.",
+
+    "linkGame" => "https://store.steampowered.com/agecheck/app/2050650/",
+    "screenShot01" => "{$path}img/resident.jpg",
+    "banner" => "{$path}img/resident_2.jpn",
+    "criador" => "Capcom",
+    "linkSiteCriador" => "https://www.residentevil.com/re4/pt-br/",
+
+
+);
+
+$game[9] = array(
+    "id" => 9,
+    "title" => "Helldivers 2",
+    "description" => "Helldivers 2 é um jogo de tiro em terceira pessoa baseado em equipes, nele, as forças de elite Helldivers buscam a vitória num confronto intergaláctico contra a proliferação de ameaças alienígenas.",
+
+    "linkGame" => "https://store.steampowered.com/agecheck/app/553850/?l=brazilian",
+    "screenShot01" => "{$path}img/Helldivers.jpg",
+    "banner" => "{$path}img/Helldivers_2.jpg",
+    "criador" => "Arrowhead Game Studios",
+    "linkSiteCriador" => "https://www.nuuvem.com/br-pt/item/helldivers-2",
+
+
+);
+
+
+echo json_encode($game);

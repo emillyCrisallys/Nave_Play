@@ -11,22 +11,25 @@ foreach ($dadosApi as $jogo) {
 
 
 <div class="inicio">
-    <a href="home.php" title="logo_Nave_Play" class="logo">
+    <a href="home.php" title="logo_Nave_Play" class="logo"  >
         <img src="img/Nave/1.svg" alt="site-logo" style="width: 10%; height: 20%;">
     </a>
-    <div class="menu2">
-        <ul>
+    <div class="menu2" >
+        <ul style="margin-left: 5%">
+
             <li>
-                <a href="pages/indicacoes.php" title="Indicacao">Indicações</a>
+                <a href="desenvolvedores" title="Desenvolvedor" >Desenvolvedores</a>
+            </li>
+            
+            <li>
+                <a href="indicacoes" title="Indicacao" >Indicações</a>
             </li>
 
             <li>
-                <a href="pages/ferramenta.php" title="Ferramenta">Ferramenta</a>
+                <a href="ferramenta" title="Ferramenta">Ferramenta</a>
             </li>
 
-            <li>
-                <a href="pages/desenvolvedores.php" title="Desenvolvedor">Desenvolvedores</a>
-            </li>
+            
 
         </ul>
     </div>
@@ -55,7 +58,7 @@ foreach ($dadosApi as $jogo) {
 
 
 <div class="container">
-    <div class="row">
+    <div class="row" style="text-align: center ">
     <?php
     foreach ($dadosApi as $jogo) {
     ?>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("htps://fonts.googleapis.com/css2?familly=Outfit:wght@300&display=swap");
 * {
   margin: 0;
@@ -112,7 +113,9 @@ ul li.item-menu a .icon i {
   float: left;
   margin-top: 40px;
   margin-left: 50px;
-  box-shadow: 10px 20px #a659e6; }
+  box-shadow: 10px 20px #a659e6;
+  transition: 1s;
+  cursor: pointer; }
 
 .card {
   border: 3px solid #11021d;
@@ -122,13 +125,15 @@ ul li.item-menu a .icon i {
   color: white; }
 
 .card:hover {
-  border: 2px solid #ef08fb;
-  background-color: #181735;
-  transition: 1s;
-  color: white; }
+  border: 3px solid #ef08fb;
+  box-shadow: 60px -16px #9955f3;
+  transition: 2s;
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px; }
 
 .inicio {
-  margin-top: 1%;
+  margin-top: 0%;
   width: 100%; }
 
 .inicio a img {
@@ -150,5 +155,69 @@ ul li.item-menu a .icon i {
     text-decoration: none;
     font-family: "Outfit", sans-serif;
     list-style: none; }
+
+hr {
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 2px solid #333261; }
+
+.formulario {
+  font-size: 15px;
+  background-color: #5113bc;
+  max-width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 10px; }
+
+.formulario form {
+  box-shadow: 0 0 1em gold; }
+.formulario label {
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  /*margem em cima do botão*/
+  margin-left: 35px; }
+
+.dados {
+  color: black;
+  background-color: rgba(218, 174, 242, 0.755);
+  padding: 10px;
+  border: 10px;
+  margin-top: 5px;
+  /*margem em cima do botão*/
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 35px; }
+
+.enviar {
+  background-image: linear-gradient(to right, #0c0f16, #ef08fb 100%);
+  padding: 10px;
+  border: 10px;
+  margin-top: 5px;
+  /*margem em cima do botão*/
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 35px; }
+
+.formulario input {
+  color: white; }
+.formulario textarea {
+  background-color: rgba(218, 174, 242, 0.755);
+  padding: 10px;
+  border: 10px;
+  margin-top: 2px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 35px;
+  margin-bottom: 10px; }
+.formulario h1 {
+  color: white;
+  margin-left: 38px;
+  font-family: "Outfit", sans-serif; }
+
+@media (min-width: 480px) {
+  body {
+    background-size: 100% auto; } }
 
 /*# sourceMappingURL=style.css.map */

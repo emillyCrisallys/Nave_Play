@@ -23,6 +23,7 @@ $perc: 100%;
 body {
     background-image: $primary !important;
     background-size: 100% !important;
+    
 }
 
 .menu-lateral {
@@ -202,7 +203,8 @@ ul {
     margin-top: 40px;
     margin-left: 50px;
     box-shadow: 10px 20px rgb(166, 89, 230);
-
+    transition: 1s; //determina o tempo de transição para volta do estado normal font-size: 40px;
+    cursor: pointer;
 
 
 }
@@ -217,19 +219,22 @@ ul {
 
 .card:hover {
     //estilos que são adicionados ao passar o cursor no elemento
-    border: 2px solid $hover1;
-    background-color: #181735;
-    transition: 1s; //determina o tempo de transição para aplicação dos estilos
+    border: 3px solid $hover1;
+    box-shadow: 60px -16px rgb(153, 85, 243);
+    transition: 2s; //determina o tempo de transição para aplicação dos estilos
     color: $clear;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .inicio {
-    margin-top: 1%;
+    margin-top: 0%;
     width: 100%;
 }
 
 .inicio {
     a {
+       
         img {
             margin-left: 45%;
             overflow-clip-margin: content-box;
@@ -260,8 +265,90 @@ ul {
     }
 }
 
-@media (min-width: 480px) {
+hr{
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 2px solid #333261;
+}
 
-
+.formulario{
+    font-size: 15px;
+    background-color: #5113bc;
+    max-width:30%;
+    padding: 10px;
+    margin-top: 10px;
+    margin: auto;
+    border-radius: 10px;
     
 }
+.formulario{
+    form{
+        box-shadow: 0 0 1em gold;
+    }
+    label{
+        color:$clear;
+        padding: 5px;  
+        margin-top: 5px;/*margem em cima do botão*/
+        margin-left: 35px;
+    }
+
+}
+
+
+.dados{
+    color: black;
+    background-color: rgba(218, 174, 242, 0.755);
+    padding: 10px;  
+    border: 10px;
+    margin-top: 5px;/*margem em cima do botão*/
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 35px;
+
+    } 
+    
+.enviar{
+    background-image:$hover;
+    padding: 10px;  
+    border: 10px;
+    margin-top: 5px;/*margem em cima do botão*/
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 35px;
+}
+
+.formulario{
+    input{
+    color: $clear;
+    }
+    textarea{
+        
+    background-color: rgba(218, 174, 242, 0.755);
+    padding: 10px;  
+    border: 10px;
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    
+    }
+    h1{
+        color: $clear;
+        margin-left: 38px;
+        font-family: $font1;
+    }
+}
+
+
+
+
+@media (min-width: 480px) {
+    body {
+       
+        background-size: 100% auto;
+      }
+    }
+    
+
+

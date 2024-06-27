@@ -10,6 +10,7 @@
     <base href="http://localhost/Nave_Play/">
 
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -59,7 +60,7 @@
         </nav>
     </header>
 
-    <main class="centro">
+    <main class="centro" >
 
 
     
@@ -87,17 +88,16 @@
 
     </main>
 
-    <nav class="base">
-
-    </nav>
 
 
+    
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/fslightbox.js"></script>
     <script src="menu.js"></script>
+
 </body>
 
 </html>
